@@ -36,9 +36,8 @@ class LinkedListIteratorIntTest < Minitest::Test
 
   # test_methods_dec().
   # @abstract
-  #   The constructor, node(), next(), prev(), data(), data=(data = nil), +=
-  #   (integer = 0), -=(integer = 0), and node=(node_ref = nil) methods were
-  #   declared.
+  #   The constructor, node(), next(), prev(), data(), data=(data = nil), and
+  #   node=(node_ref = nil) methods were declared.
   def test_methods_dec()
 
     assert_respond_to(@class_constant, 'new')
@@ -47,8 +46,6 @@ class LinkedListIteratorIntTest < Minitest::Test
     assert_respond_to(@plain, 'data=')
     assert_respond_to(@plain, 'next')
     assert_respond_to(@plain, 'prev')
-    assert_respond_to(@plain, '+=')
-    assert_respond_to(@plain, '-=')
     assert_includes(@plain.private_methods(), :node=)
 
   end

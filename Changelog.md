@@ -4,12 +4,11 @@
 
 ### Added
 
--
+- Initialized project, remote repository.
+- Method signatures.
+- YARD.
+- Tests.
 
 ### Edited
 
--
-
 ### Fixed
-
--
