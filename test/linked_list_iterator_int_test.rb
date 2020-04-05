@@ -52,7 +52,7 @@ class LinkedListIteratorIntTest < Minitest::Test
     assert_includes(@pub_i_m, :==)
     assert_includes(@pub_i_m, :next)
     assert_includes(@pub_i_m, :prev)
-    assert_includes(@pub_i_m, :initialize)
+    assert_includes(@priv_i_m, :initialize)
     assert_includes(@priv_i_m, :node)
     assert_includes(@priv_i_m, :position=)
     assert_includes(@priv_i_m, :node=)
