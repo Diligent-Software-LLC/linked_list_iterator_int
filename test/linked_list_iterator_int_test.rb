@@ -1,13 +1,15 @@
 require_relative 'test_helper'
 
 # LinkedListIteratorIntTest.
-# @abstract
+# @class_description
 #   Tests the LinkedListIterator interface.
 class LinkedListIteratorIntTest < Minitest::Test
 
+  CLASS = LinkedListIteratorInt
+
   # test_conf_doc_f_ex().
-  # @abstract
-  #   The .travis.yml, CODE_OF_CONDUCT.md, Gemfile, LICENSE.txt, and
+  # @description
+  #   The .travis.yml, CODE_OF_CONDUCT.md, Gemfile, LICENSE.txt, .yardopts, and
   #   README.md files exist.
   def test_conf_doc_f_ex()
 
@@ -16,43 +18,50 @@ class LinkedListIteratorIntTest < Minitest::Test
     assert_path_exists('Gemfile')
     assert_path_exists('LICENSE.txt')
     assert_path_exists('README.md')
+    assert_path_exists('.yardopts')
 
   end
 
   # test_version_declared().
-  # @abstract
+  # @description
   #   The version was declared.
   def test_version_declared()
-    refute_nil(::LinkedListIteratorInt::VERSION)
+    refute_nil(CLASS::VERSION)
   end
 
   # setup().
-  # @abstract
-  # Set fixtures.
+  # @description
+  #   Set fixtures.
   def setup()
-    @class_constant = LinkedListIteratorInt
-    @plain          = LinkedListIteratorInt.new()
+    @pub_i_m  = CLASS.public_instance_methods(all: false)
+    @priv_i_m = CLASS.private_instance_methods(all: false)
   end
 
   # test_methods_dec().
-  # @abstract
-  #   The constructor, node(), next(), prev(), data(), data=(data = nil), and
-  #   node=(node_ref = nil) methods were declared.
+  # @description
+  #   initialize, data, data=, identical_node?, eql_node?, ===, ==, next,
+  #   prev, node, position=, and node= were declared.
   def test_methods_dec()
 
-    assert_respond_to(@class_constant, 'new')
-    assert_respond_to(@plain, 'node')
-    assert_respond_to(@plain, 'data')
-    assert_respond_to(@plain, 'data=')
-    assert_respond_to(@plain, 'next')
-    assert_respond_to(@plain, 'prev')
-    assert_includes(@plain.private_methods(), :node=)
+    assert_includes(@pub_i_m, :position)
+    assert_includes(@pub_i_m, :data)
+    assert_includes(@pub_i_m, :data=)
+    assert_includes(@pub_i_m, :identical_node?)
+    assert_includes(@pub_i_m, :eql_node?)
+    assert_includes(@pub_i_m, :===)
+    assert_includes(@pub_i_m, :==)
+    assert_includes(@pub_i_m, :next)
+    assert_includes(@pub_i_m, :prev)
+    assert_includes(@pub_i_m, :initialize)
+    assert_includes(@priv_i_m, :node)
+    assert_includes(@priv_i_m, :position=)
+    assert_includes(@priv_i_m, :node=)
 
   end
 
   # teardown().
-  # @abstract
-  # Cleanup.
+  # @description
+  #   Cleanup.
   def teardown()
   end
 

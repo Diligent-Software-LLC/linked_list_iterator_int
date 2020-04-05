@@ -4,13 +4,15 @@ Declares a LinkedListIterator internal iterator interface.
 
 ## Installation
 
-- Refer the LinkedList 
+- Refer the LinkedList Iterator
 [packages](https://docs.diligentsoftware.org/linkedlist-1/iterator/packages) 
 page.
 
 ## Documentation
 
-- Refer the LinkedList Iterator [interface](https://docs.diligentsoftware.org/linkedlist-1/iterator/interface) homepage.
+- Refer the LinkedList Iterator 
+[interface](https://docs.diligentsoftware.org/linkedlist-1/iterator/interface) 
+homepage.
 
 ## Contributing
 
@@ -24,8 +26,10 @@ Greatly appreciated.
 
 ### Report Bugs
 
-- Refer the [Bug Reporting Procedure](https://github.com/Diligent-Software-LLC/linked_list_iterator_int/issues/1).
+- Refer the 
+[Bug Reporting Procedure](https://github.com/Diligent-Software-LLC/linked_list_iterator_int/issues/1).
 
 ### Fix Bugs
 
-- Refer the [Bug Fixing Procedure](https://github.com/Diligent-Software-LLC/linked_list_iterator_int/issues/2).
+- Refer the 
+[Bug Fixing Procedure](https://github.com/Diligent-Software-LLC/linked_list_iterator_int/issues/2).
