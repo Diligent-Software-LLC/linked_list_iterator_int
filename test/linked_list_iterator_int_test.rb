@@ -37,10 +37,10 @@ class LinkedListIteratorIntTest < Minitest::Test
     @priv_i_m = CLASS.private_instance_methods(all: false)
   end
 
-  # test_methods_dec().
+  # test_pub_m_dec().
   # @description
-  #   initialize, data, data=, identical_node?, eql_node?, ===, ==, next,
-  #   prev, node, position=, and node= were declared.
+  #   data, data=, identical_node?, eql_node?, ===, ==, next, and
+  #   prev were declared.
   def test_methods_dec()
 
     assert_includes(@pub_i_m, :position)
@@ -52,6 +52,14 @@ class LinkedListIteratorIntTest < Minitest::Test
     assert_includes(@pub_i_m, :==)
     assert_includes(@pub_i_m, :next)
     assert_includes(@pub_i_m, :prev)
+
+  end
+
+  # test_priv_m_dec().
+  # @description
+  #   initialize, node, position=, and node= were declared.
+  def test_priv_m_dec()
+
     assert_includes(@priv_i_m, :initialize)
     assert_includes(@priv_i_m, :node)
     assert_includes(@priv_i_m, :position=)

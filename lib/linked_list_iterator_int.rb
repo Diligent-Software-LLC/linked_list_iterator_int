@@ -5,21 +5,22 @@ require_relative "linked_list_iterator_int/version"
 
 # LinkedListIteratorInt.
 # @class_description
-#   Declares a LinkedList internal iterator interface.
+#   Declares a LinkedList iterator interface.
 # @attr node [Node]
 #   A LinkedList's node.
 # @attr position [Integer]
-#   The iterator's list position.
+#   The iterator's list position. Positions begin at 0, and end at the list's
+#   size less one.
 class LinkedListIteratorInt
 
-  # initialize(llist = nil).
+  # initialize(l_n = nil).
   # @description
   #   Initializes a LinkedListIterator.
-  # @param llist [LinkedList]
-  #   A list.
+  # @param l_n [Node]
+  #   A LinkedList node.
   # @return [LinkedListIterator]
-  #   A LinkedListIterator.
-  def initialize(llist = nil)
+  #   A LinkedListIterator instance.
+  def initialize(l_n = nil)
   end
 
   # position().
@@ -33,19 +34,21 @@ class LinkedListIteratorInt
   # data().
   # @description
   #   Gets the data at the iterator's position.
-  # @return [Numeric, FalseClass, Symbol, TrueClass, String, Time, NilClass] data
-  #   The data at the position.
+  # @return [DataType]
+  #   The data at the position. Refer the DataType
+  #   {https://docs.diligentsoftware.org/data#data-types types}.
   def data()
   end
 
-  # data=(data = nil).
+  # data=(dti = nil).
   # @description
   #   Sets the data at the iterator's position.
-  # @param [Numeric, FalseClass, Symbol, TrueClass, String, Time, NilClass] data
-  #   The replacement data.
-  # @return [Numeric, FalseClass, Symbol, TrueClass, String, Time, NilClass] data
+  # @param dti [DataType]
+  #   The replacement data. Refer
+  #   {https://docs.diligentsoftware.org/data#data-types DataType}.
+  # @return [DataType]
   #   The argument.
-  def data=(data = nil)
+  def data=(dti = nil)
   end
 
   # identical_node?(inst = nil).
@@ -69,32 +72,31 @@ class LinkedListIteratorInt
   def eql_node?(inst = nil)
   end
 
-  # ===(lliter = nil).
+  # ===(inst = nil).
   # @description
   #   Identity comparison operator. Compares the argument and self.
-  # @param lliter [.]
+  # @param inst [.]
   #   A comparison instance.
   # @return [TrueClass, FalseClass]
-  #   True in the case the iterators are identical. False otherwise.
-  def ===(lliter = nil)
+  #   True in the case the instances are identical. False otherwise.
+  def ===(inst = nil)
   end
 
-  # ==(lliter = nil).
+  # ==(inst = nil).
   # @description
   #   Equality operator. Compares the argument and self.
-  # @param lliter [.]
+  # @param inst [.]
   #   A comparison instance.
   # @return [TrueClass, FalseClass]
-  #   True in the case the argument is an iterator, and, the iterators'
-  #   positions' nodes are equal and the nodes at the remaining list positions
-  #   are equal.
-  def ==(lliter = nil)
+  #   True in the case the argument is an iterator, the iterators'
+  #   attribute nodes are attributively equal, and the iterators' positions
+  #   are attributively equal.
+  def ==(inst = nil)
   end
 
   # next().
   # @description
-  #   Increments the iterator's list position. Sets the node attribute the
-  #   node's front instance reference.
+  #   Increments the iterator's position. Sets node node's front reference.
   # @return [NilClass]
   #   nil.
   def next()
@@ -102,8 +104,7 @@ class LinkedListIteratorInt
 
   # prev().
   # @description
-  #   Decrements the iterator's list position. Sets the node attribute the
-  #   node's back instance reference.
+  #   Decrements the iterator's position. Sets node node's back reference.
   # @return [NilClass]
   #   nil.
   def prev()
@@ -113,30 +114,30 @@ class LinkedListIteratorInt
 
   # node().
   # @description
-  #   Gets the iterator's node reference.
+  #   Gets node.
   # @return [Node]
-  #   The list's node reference at the iterator's position.
+  #   The list node reference at the iterator's position.
   def node()
   end
 
-  # node=(node = nil).
+  # node=(n = nil).
   # @description
-  #   Sets the iterator's node reference.
-  # @param node [Node]
-  #   The initializing linked list's node reference.
-  # @return node [Node]
+  #   Sets node's reference.
+  # @param n [Node]
+  #   The instantiating node.
+  # @return [Node]
   #   The argument.
-  def node=(node = nil)
+  def node=(n = nil)
   end
 
-  # position=(integer = nil).
+  # position=(int = nil).
   # @description
-  #   Sets the iterator's position.
-  # @param integer [Integer]
+  #   Sets the position.
+  # @param int [Integer]
   #   The list position.
   # @return [Integer]
   #   The argument.
-  def position=(integer = nil)
+  def position=(int = nil)
   end
 
 end

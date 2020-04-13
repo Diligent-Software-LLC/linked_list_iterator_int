@@ -3,11 +3,12 @@
 
 # LinkedListIteratorInt.
 # @class_description
-#   Declares a LinkedList internal iterator interface.
+#   Declares a LinkedList iterator interface.
 # @attr node [Node]
 #   A LinkedList's node.
 # @attr position [Integer]
-#   The iterator's list position.
+#   The iterator's list position. Positions begin at 0, and end at the list's
+#   size less one.
 class LinkedListIteratorInt
-  VERSION = '1.0.0'.freeze()
+  VERSION = '1.0.1'.freeze()
 end
