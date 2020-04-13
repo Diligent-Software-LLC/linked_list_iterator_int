@@ -1,5 +1,20 @@
 # Changelog
 
+## v1.0.1, 2020-04-13
+
+### Added
+
+### Edited
+
+- Method signatures.
+- YARDocumentation.
+- Factored test_methods_dec().
+- Gem Specification summary and description attributes.
+
+### Fixed
+
+- Gem Changelog URI.
+
 ## v1.0.0, 2020-04-05
 
 ### Added

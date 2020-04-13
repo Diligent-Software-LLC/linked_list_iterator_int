@@ -69,12 +69,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4db08b6d-bd91-4530-baa0-0b444343d337" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/linked_list_iterator_int.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/linked_list_iterator_int.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/linked_list_iterator_int/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/linked_list_iterator_int/version.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linked_list_iterator_int.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/linked_list_iterator_int.gemspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/linked_list_iterator_int_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/linked_list_iterator_int_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +77,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="313" />
+    <option name="myElementSize" value="330" />
   </component>
   <component name="ExportToHTMLSettings">
     <option name="OPEN_IN_BROWSER" value="true" />
@@ -171,7 +166,7 @@
       <updated>1585325019717</updated>
       <workItem from="1585325022182" duration="8832000" />
       <workItem from="1586090011365" duration="11516000" />
-      <workItem from="1586805427041" duration="1851000" />
+      <workItem from="1586805427041" duration="2261000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized Repository&#10;&#10;Setup, In Progress, Development complete.">
       <created>1585331918410</created>
@@ -215,10 +210,17 @@
       <option name="project" value="LOCAL" />
       <updated>1586106053350</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Setup, Development Complete&#10;&#10;Edited method signatures. Edited YARDocumentation. Factored test_methods_dec() test. Edited Gem Specification summary and description attributes. Fixed Changelog URI.">
+      <created>1586807523796</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586807523797</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: LinkedList Subsystem: Iterator Component: interface Sprints: 4 State: Development " />
+        <option name="defaultSearch" value="project: LinkedList Subsystem: Iterator Component: interface Sprints: 4 State:{ Prepare Deploy} " />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -245,7 +247,8 @@
     <MESSAGE value="Development Complete&#10;&#10;Edited copyright statements. Fixed YARDocumentation. Edited method signatures. Added method signatures. Updated tests. Added GNU General Public License, Version 3. Edited the Gem Specification file. Edited the README.md's links. Added a .yardopts file." />
     <MESSAGE value="Prepare Deploy&#10;&#10;All tests pass." />
     <MESSAGE value="Prepare Deploy&#10;&#10;Changelog.md updated." />
-    <option name="LAST_COMMIT_MESSAGE" value="Prepare Deploy&#10;&#10;Changelog.md updated." />
+    <MESSAGE value="Setup, Development Complete&#10;&#10;Edited method signatures. Edited YARDocumentation. Factored test_methods_dec() test. Edited Gem Specification summary and description attributes. Fixed Changelog URI." />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup, Development Complete&#10;&#10;Edited method signatures. Edited YARDocumentation. Factored test_methods_dec() test. Edited Gem Specification summary and description attributes. Fixed Changelog URI." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -253,10 +256,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="443" y="175" key="#Servers/0.23.1680.975@0.23.1680.975" timestamp="1585325268614" />
-    <state x="63" y="84" width="1557" height="831" key="CommitChangelistDialog2" timestamp="1586106053388">
+    <state x="63" y="84" width="1557" height="831" key="CommitChangelistDialog2" timestamp="1586807522884">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="63" y="84" width="1557" height="831" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1586106053388" />
+    <state x="63" y="84" width="1557" height="831" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1586807522884" />
     <state width="1564" height="270" key="GridCell.Tab.0.bottom" timestamp="1586807273755">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
