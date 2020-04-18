@@ -51,27 +51,6 @@ class LinkedListIteratorInt
   def data=(dti = nil)
   end
 
-  # identical_node?(inst = nil).
-  # @description
-  #   Compares the argument and the node at the iterator's position.
-  # @param inst [.]
-  #   A comparison instance.
-  # @return [TrueClass, FalseClass]
-  #   True in the case the argument and the node at the iterator's position
-  #   are identical.
-  def identical_node?(inst = nil)
-  end
-
-  # eql_node?(inst = nil).
-  # @description
-  #   Compares the argument and the node at self's position.
-  # @param inst [.]
-  #   A comparison instance.
-  # @return [TrueClass, FalseClass]
-  #   True in the case the instances are attributively equal. False otherwise.
-  def eql_node?(inst = nil)
-  end
-
   # ===(inst = nil).
   # @description
   #   Identity comparison operator. Compares the argument and self.
@@ -89,8 +68,7 @@ class LinkedListIteratorInt
   #   A comparison instance.
   # @return [TrueClass, FalseClass]
   #   True in the case the argument is an iterator, the iterators'
-  #   attribute nodes are attributively equal, and the iterators' positions
-  #   are attributively equal.
+  #   node references are the same, and their positions are the same.
   def ==(inst = nil)
   end
 
