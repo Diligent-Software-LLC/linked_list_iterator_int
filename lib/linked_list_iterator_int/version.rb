@@ -10,5 +10,5 @@
 #   The iterator's list position. Positions begin at 0, and end at the list's
 #   size less one.
 class LinkedListIteratorInt
-  VERSION = '1.0.1'.freeze()
+  VERSION = '2.0.0'.freeze()
 end
