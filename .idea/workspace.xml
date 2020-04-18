@@ -69,9 +69,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4db08b6d-bd91-4530-baa0-0b444343d337" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/linked_list_iterator_int.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/linked_list_iterator_int.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/linked_list_iterator_int_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/linked_list_iterator_int_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +77,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="330" />
+    <option name="myElementSize" value="364" />
   </component>
   <component name="ExportToHTMLSettings">
     <option name="OPEN_IN_BROWSER" value="true" />
@@ -174,7 +172,7 @@
       <workItem from="1585325022182" duration="8832000" />
       <workItem from="1586090011365" duration="11516000" />
       <workItem from="1586805427041" duration="3807000" />
-      <workItem from="1587212482001" duration="1301000" />
+      <workItem from="1587212482001" duration="1856000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized Repository&#10;&#10;Setup, In Progress, Development complete.">
       <created>1585331918410</created>
@@ -239,10 +237,17 @@
       <option name="project" value="LOCAL" />
       <updated>1587213533312</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Development Complete&#10;&#10;Removed 'identical_node?(inst = nil)' and 'eql_node?(inst = nil)'. The methods were LinkedList appropriate. Edited Travis CI configuration.">
+      <created>1587214215201</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1587214215201</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: LinkedList Subsystem: Iterator Component: interface Sprints: 7 State:{Development} " />
+        <option name="defaultSearch" value="project: LinkedList Subsystem: Iterator Component: interface Sprints: 7 State:{Prepare Deployment} " />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -272,7 +277,8 @@
     <MESSAGE value="Setup, Development Complete&#10;&#10;Edited method signatures. Edited YARDocumentation. Factored test_methods_dec() test. Edited Gem Specification summary and description attributes. Fixed Changelog URI." />
     <MESSAGE value="Prepare Deployment&#10;&#10;Updated Changelog.md." />
     <MESSAGE value="Setup Complete&#10;&#10;Edited dependencies." />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup Complete&#10;&#10;Edited dependencies." />
+    <MESSAGE value="Development Complete&#10;&#10;Removed 'identical_node?(inst = nil)' and 'eql_node?(inst = nil)'. The methods were LinkedList appropriate. Edited Travis CI configuration." />
+    <option name="LAST_COMMIT_MESSAGE" value="Development Complete&#10;&#10;Removed 'identical_node?(inst = nil)' and 'eql_node?(inst = nil)'. The methods were LinkedList appropriate. Edited Travis CI configuration." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -280,10 +286,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="443" y="175" key="#Servers/0.23.1680.975@0.23.1680.975" timestamp="1585325268614" />
-    <state x="63" y="84" width="1557" height="831" key="CommitChangelistDialog2" timestamp="1587213532679">
+    <state x="63" y="84" width="1557" height="831" key="CommitChangelistDialog2" timestamp="1587214214885">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="63" y="84" width="1557" height="831" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1587213532679" />
+    <state x="63" y="84" width="1557" height="831" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1587214214885" />
     <state width="1564" height="270" key="GridCell.Tab.0.bottom" timestamp="1587213905202">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -308,10 +314,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="435" y="235" width="816" height="550" key="find.popup/0.23.1680.975@0.23.1680.975" timestamp="1585331840759" />
-    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1587213979784">
+    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1587214264320">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1587213979784" />
+    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1587214264320" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/linked_list_iterator_int@LinkedListIteratorIntTest.rcov" NAME="LinkedListIteratorIntTest Coverage Results" MODIFIED="1587213901365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="linked_list_iterator_int" />
