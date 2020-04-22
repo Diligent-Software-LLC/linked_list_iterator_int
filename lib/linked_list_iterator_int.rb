@@ -23,6 +23,14 @@ class LinkedListIteratorInt
   def initialize(l_n = nil)
   end
 
+  # element().
+  # @description
+  #   Gets the position's list element.
+  # @return [Node]
+  #   The element reference.
+  def element()
+  end
+
   # position().
   # @description
   #   Gets the iterator's list position.
@@ -88,6 +96,16 @@ class LinkedListIteratorInt
   def prev()
   end
 
+  protected
+
+  # node_ref().
+  # @description
+  #   Gets node's reference.
+  # @return [Node]
+  #   The reference.
+  def node_ref()
+  end
+
   private
 
   # node().
@@ -119,4 +137,3 @@ class LinkedListIteratorInt
   end
 
 end
-
