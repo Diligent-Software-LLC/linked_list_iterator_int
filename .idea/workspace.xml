@@ -69,11 +69,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4db08b6d-bd91-4530-baa0-0b444343d337" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/linked_list_iterator_int.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/linked_list_iterator_int.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/linked_list_iterator_int/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/linked_list_iterator_int/version.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/linked_list_iterator_int_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/linked_list_iterator_int_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +77,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="364" />
+    <option name="myElementSize" value="381" />
   </component>
   <component name="ExportToHTMLSettings">
     <option name="OPEN_IN_BROWSER" value="true" />
@@ -179,7 +175,7 @@
       <workItem from="1586805427041" duration="3807000" />
       <workItem from="1587212482001" duration="2563000" />
       <workItem from="1587428051628" duration="1687000" />
-      <workItem from="1587517226397" duration="1281000" />
+      <workItem from="1587517226397" duration="1607000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized Repository&#10;&#10;Setup, In Progress, Development complete.">
       <created>1585331918410</created>
@@ -258,10 +254,17 @@
       <option name="project" value="LOCAL" />
       <updated>1587214488272</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Setup and Development Complete&#10;&#10;Bumped version. Added 'element()' and 'node_ref()'. Added assertions covering additions.">
+      <created>1587518710129</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1587518710129</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: LinkedList Subsystem: Iterator Component: interface Sprints: 8 State:{Development} " />
+        <option name="defaultSearch" value="project: LinkedList Subsystem: Iterator Component: interface Sprints: 8 State:{Prepare Deployment} " />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -292,7 +295,8 @@
     <MESSAGE value="Setup Complete&#10;&#10;Edited dependencies." />
     <MESSAGE value="Development Complete&#10;&#10;Removed 'identical_node?(inst = nil)' and 'eql_node?(inst = nil)'. The methods were LinkedList appropriate. Edited Travis CI configuration." />
     <MESSAGE value="Prepare Deployment&#10;&#10;Updated Changelog.md." />
-    <option name="LAST_COMMIT_MESSAGE" value="Prepare Deployment&#10;&#10;Updated Changelog.md." />
+    <MESSAGE value="Setup and Development Complete&#10;&#10;Bumped version. Added 'element()' and 'node_ref()'. Added assertions covering additions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup and Development Complete&#10;&#10;Bumped version. Added 'element()' and 'node_ref()'. Added assertions covering additions." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -300,10 +304,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="443" y="175" key="#Servers/0.23.1680.975@0.23.1680.975" timestamp="1585325268614" />
-    <state x="63" y="84" width="1557" height="831" key="CommitChangelistDialog2" timestamp="1587214488004">
+    <state x="63" y="84" width="1557" height="831" key="CommitChangelistDialog2" timestamp="1587518709723">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="63" y="84" width="1557" height="831" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1587214488004" />
+    <state x="63" y="84" width="1557" height="831" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1587518709723" />
     <state width="1564" height="270" key="GridCell.Tab.0.bottom" timestamp="1587518503633">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -328,10 +332,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="435" y="235" width="816" height="550" key="find.popup/0.23.1680.975@0.23.1680.975" timestamp="1585331840759" />
-    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1587518570975">
+    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1587518755279">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1587518570975" />
+    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1587518755279" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/linked_list_iterator_int@LinkedListIteratorIntTest.rcov" NAME="LinkedListIteratorIntTest Coverage Results" MODIFIED="1587518499553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="linked_list_iterator_int" />

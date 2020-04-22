@@ -1,5 +1,16 @@
 # Changelog
 
+## v2.1.0, 2020-04-21
+
+### Added
+
+- 'element()' and 'node_ref()'.
+- Assertions covering additions.
+
+### Edited
+
+### Fixed
+
 ## v2.0.0, 2020-04-18
 
 ### Added
